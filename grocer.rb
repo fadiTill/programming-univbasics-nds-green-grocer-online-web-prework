@@ -58,8 +58,8 @@ def apply_clearance(cart)
       end
     end
   apply_clearance =
-  if  (i):clearance => true 
-    :price => (i)* 0.20
+  if  :clearance => true 
+    :price => * 0.20
     puts apply_clearance
   
   # Consult README for inputs and outputs
