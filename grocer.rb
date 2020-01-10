@@ -17,6 +17,13 @@ end
 
 
 def consolidate_cart(cart)
+  consolidated_cart = consolidate_cart(cart)
+      i = 0
+      while i < consolidated_cart.length do
+        expect(consolidated_cart[i][:count]).to eq(1)
+        i += 1
+      end
+    end
   # Consult README for inputs and outputs
   #
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
