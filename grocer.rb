@@ -36,6 +36,7 @@ def apply_coupons(cart, coupons)
       
     ]
   end
+  def coupon
      coupon =  
         {:item => "AVOCADO", :num => 2, :cost => 5.00},
         {:item => "TEMPEH", :num => 2, :cost => 5.00},
