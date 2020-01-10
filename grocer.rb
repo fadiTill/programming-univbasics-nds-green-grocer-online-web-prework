@@ -27,7 +27,8 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   def apply_coupons
         apply_coupons =[ cart + coupon]
-     coupon   
+     cart =
+     coupon =  
         {:item => "AVOCADO", :num => 2, :cost => 5.00},
         {:item => "TEMPEH", :num => 2, :cost => 5.00},
       ]
