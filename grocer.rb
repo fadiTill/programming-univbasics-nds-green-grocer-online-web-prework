@@ -17,6 +17,9 @@ RSdef find_item_by_name_in_collection(name, collection)
        {:item => "TEMPEH", :num => 2, :cost => 5.00},
       ]
   # Consult README for inputs and outputs
+  apply_coupons =  [:item => << 'W/coupons',:cost => / 2
+  ]
+  puts apply_coupons
 end
 
 def consolidate_cart(cart)
