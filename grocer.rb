@@ -50,6 +50,11 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
+  apply_clearance =
+  if  (i):clearance => true 
+    :price => (i)* 0.20
+    puts apply_clearance
+  
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
