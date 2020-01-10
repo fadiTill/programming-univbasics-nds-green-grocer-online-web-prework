@@ -1,6 +1,21 @@
-def find_item_by_name_in_collection(name, collection)
+RSdef find_item_by_name_in_collection(name, collection)
   # Implement me first!
   #
+  def find_item_by_name_in_collection (name,array)
+    find_item_by_name_in_collection = [
+    {:item => "AVOCADO", :price => 3.00 , :clearance => true},
+      {:item => "KALE", :price => 3.00 , :clearance => false},
+      {:item => "BLACK_BEANS", :price => 2.50 , :clearance => false},
+      {:item => "ALMONDS", :price => 9.00, :clearance => false},
+      {:item => "TEMPEH", :price => 3.00, :clearance => true},
+      
+    ]
+  end
+      def apply_coupons
+        apply_coupons =[ 
+        {:item => "AVOCADO", :num => 2, :cost => 5.00},
+       {:item => "TEMPEH", :num => 2, :cost => 5.00},
+      ]
   # Consult README for inputs and outputs
 end
 
