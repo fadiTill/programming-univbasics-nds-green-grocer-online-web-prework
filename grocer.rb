@@ -29,19 +29,7 @@ def apply_coupons(cart, coupons)
         apply_coupons =[ cart + coupon]
      coupon   
         {:item => "AVOCADO", :num => 2, :cost => 5.00},
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       {:item => "TEMPEH", :num => 2, :cost => 5.00},
+        {:item => "TEMPEH", :num => 2, :cost => 5.00},
       ]
   # Consult README for inputs and outputs
   apply_coupons =  [:item => << 'W/coupons',:cost => / 2
