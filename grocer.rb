@@ -27,7 +27,15 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   def apply_coupons
         apply_coupons =[ cart + coupon]
-     cart =
+     def cart
+     cart = {:item => "AVOCADO", :price => 3.00 , :clearance => true},
+      {:item => "KALE", :price => 3.00 , :clearance => false},
+      {:item => "BLACK_BEANS", :price => 2.50 , :clearance => false},
+      {:item => "ALMONDS", :price => 9.00, :clearance => false},
+      {:item => "TEMPEH", :price => 3.00, :clearance => true},
+      
+    ]
+  end
      coupon =  
         {:item => "AVOCADO", :num => 2, :cost => 5.00},
         {:item => "TEMPEH", :num => 2, :cost => 5.00},
