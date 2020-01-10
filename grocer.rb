@@ -11,15 +11,8 @@ RSdef find_item_by_name_in_collection(name, collection)
       
     ]
   end
-      def apply_coupons
-        apply_coupons =[ 
-        {:item => "AVOCADO", :num => 2, :cost => 5.00},
-       {:item => "TEMPEH", :num => 2, :cost => 5.00},
-      ]
   # Consult README for inputs and outputs
-  apply_coupons =  [:item => << 'W/coupons',:cost => / 2
-  ]
-  puts apply_coupons
+
 end
 
 
@@ -33,8 +26,21 @@ end
 def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   def apply_coupons
-        apply_coupons =[ 
+        apply_coupons =[ cart + coupon]
+     coupon   
         {:item => "AVOCADO", :num => 2, :cost => 5.00},
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
        {:item => "TEMPEH", :num => 2, :cost => 5.00},
       ]
   # Consult README for inputs and outputs
